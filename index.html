@@ -1,53 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="description" content="My first website">
-        <meta name="keywords" content="INFO1601, uwi, web">
-        <title>My First Page</title>
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <h1>This is my first website</h1>
-        </header>
 
-        <article>
-            <section>
-                <p>Welcome</p>
-            </section>
+<head>
+  <meta name="description" content="My first website">
+  <meta name="keywords" content="INFO1601, uwi, web">
+  <title>My First Page</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
 
-            <section>
-                <b>bold</b> <br>
-                <strong>Strong text</strong><br>
-                <mark>highlighted text</mark> <br>
-                <u>underlined</u> <br>
-                <s>strikethrough</s>
-                Text<sub>subscript</sub><br>
-                Text<sup>superscript</sup><br>
+<body>
+  <header>
+    <h1>This is my first website</h1>
+  </header>
 
-            </section>
+  <article>
+    <section>
+      <p>Welcome</p>
+    </section>
 
-            <section>
-                <code>code</code><br>
-                <samp>Sample output from a computer program</samp><br>
-                <kbd>Keyboard input</kbd>
-            </section>
+    <section>
+      <b>bold</b> <br>
+      <strong>Strong text</strong><br>
+      <mark>highlighted text</mark> <br>
+      <u>underlined</u> <br>
+      <s>strikethrough</s>
+      Text<sub>subscript</sub><br>
+      Text<sup>superscript</sup><br>
 
-            <section>
-                <em>Emphasized text</em><br>
-                <var>variable x</var><br>
-                <cite>citation</cite><br>
-                <dfn>definition</dfn>
-            </section>
+    </section>
 
-             <section>
-                  <figure>
-                      <img src="https://lorempixel.com/200/200/cats"alt="arandomcat">
-                      <figcaption>Fig 1. A random cat</figcaption>
-                  </figure>
-             </section>
-        </article>
+    <section>
+      <code>code</code><br>
+      <samp>Sample output from a computer program</samp><br>
+      <kbd>Keyboard input</kbd>
+    </section>
 
-    </body>
+    <section>
+      <em>Emphasized text</em><br>
+      <var>variable x</var><br>
+      <cite>citation</cite><br>
+      <dfn>definition</dfn>
+    </section>
+
+    <section>
+      <figure>
+        <img src="https://th.bing.com/th/id/OIP.D4lCG7dGjMJwO07EHm1uIQHaHa?rs=1&pid=ImgDetMain"
+          alt="a random image of pizza" style="width:200px;height:auto;">
+        <figcaption>Fig 1. A random image of pizza</figcaption>
+      </figure>
+    </section>
+    <a href="https://th.bing.com/th/id/OIP.D4lCG7dGjMJwO07EHm1uIQHaHa?rs=1&pid=ImgDetMain">Click me to view
+      image</a>
+    <section>
+      <p>Pizza is made by spreading tomato sauce and cheese on a dough and baking it in an oven.</p>
+      <p>It is then topped with various ingredients like pepperoni, pineapple, and bacon before serving.</p>
+    </section>
+
+    <section>
+      <details>
+        <summary>Hobbies</summary>
+        <ul>
+          <li>Swimming</li>
+          <li>Coding</li>
+          <li>Music</li>
+          <li>Stuff</li>
+        </ul>
+      </details>
+    </section>
+
+    <dialog id="mydialog">
+      This is a dialog
+      <a href="javascript:mydialog.removeAttribute('open')">close</a>
+    </dialog>
+
+    <a href="javascript:document.querySelector('#mydialog').setAttribute('open', true)">
+      Open Dialog
+    </a>
+  </article>
+
+</body>
 <html>
